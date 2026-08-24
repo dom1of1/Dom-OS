@@ -100,7 +100,7 @@ Ubuntu/Zorin's opensbi apt package only ships riscv64 firmware **(/usr/lib/riscv
 
  Downloaded the prebuilt 32-bit OpenSBI firmware directly from QEMU's own upstream repo, placing it in QEMU's default data search path (**/usr/share/qemu**, found via **qemu-system-riscv32 -L help**):
 
- ```bash
+ ```console
  sudo wget -O /usr/share/qemu/opensbi-riscv32-generic-fw_dynamic.bin \
   https://github.com/qemu/qemu/raw/master/pc-bios/opensbi-riscv32-generic-fw_dynamic.bin
  ```
